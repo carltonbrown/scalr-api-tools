@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<FarmsListResponse>
+    <TransactionID>fffd7e81-f9a0-4749-8b84-30771d8f81c0</TransactionID>
+    <FarmSet>
+        <Item><ID>5140</ID><Name>core</Name><Status>1</Status><Comments>The core services farm</Comments></Item>
+        <Item><ID>5602</ID><Name>smirnoff</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>6013</ID><Name>accounts-production</Name><Status>1</Status><Comments>"role[accounts]","role[production]","role[monit_base]", "recipe[apt]", "recipe[apache2::default]","recipe[php::php5]","recipe[postgresql::server]", "recipe[pgpool::default]", "recipe[pgpool::install_postgres_functions]", "recipe[pgpool::pgpooladmin]"</Comments></Item>
+        <Item><ID>6063</ID><Name>synchole-production</Name><Status>1</Status><Comments>Este es el Hooe de todos los agujeros. Nosotros guardamos toneladas de basura Facebook aqu&#xED;. Para siempre.</Comments></Item>
+        <Item><ID>6593</ID><Name>abacus</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>6624</ID><Name>deejay-production</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>7004</ID><Name>dashboard-production</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>7104</ID><Name>shop-production</Name><Status>1</Status><Comments>shop (production)</Comments></Item>
+        <Item><ID>7228</ID><Name>postgres</Name><Status>1</Status><Comments>PostgreSQL database cluster for production applications</Comments></Item>
+        <Item><ID>7762</ID><Name>tabs</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>8444</ID><Name>trey</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>9170</ID><Name>community-production</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>9259</ID><Name>scribe</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>9831</ID><Name>sie</Name><Status>1</Status><Comments>Social Integration Engine.</Comments></Item>
+        <Item><ID>9933</ID><Name>rabbitmq</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>12910</ID><Name>monitoring</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>13166</ID><Name>custom-production</Name><Status>1</Status><Comments>Client delivery production environment</Comments></Item>
+        <Item><ID>13415</ID><Name>cdn-production</Name><Status>1</Status><Comments>Migrated cdn environment from datacenter</Comments></Item>
+        <Item><ID>13683</ID><Name>media</Name><Status>1</Status><Comments>This is the prod env for media, or the demo, I DON'T KNOW ANYMORE!</Comments></Item>
+        <Item><ID>13760</ID><Name>graphite-testing</Name><Status>1</Status><Comments>used for graphite cluster testing.  didn't want to dirty up playground.  this farm will contain nodes for testing graphite cookbook for cluster components, and load testing the cluster.</Comments></Item>
+        <Item><ID>15599</ID><Name>srma-engage</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>15945</ID><Name>workflow-production</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>16148</ID><Name>auditor</Name><Status>1</Status><Comments></Comments></Item>
+        <Item><ID>16156</ID><Name>ca-api</Name><Status>1</Status><Comments>Custom Audience API farm</Comments></Item>
+    </FarmSet>
+</FarmsListResponse>
